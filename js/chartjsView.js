@@ -1,7 +1,7 @@
 define([
     'coreJS/adapt',
     'coreViews/componentView',
-    './Chart.min'
+    'libraries/chart.min'
 ], function(Adapt, ComponentView, Chart) {
 
     var ChartJSView = ComponentView.extend({
